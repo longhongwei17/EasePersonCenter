@@ -15,6 +15,8 @@
 		0F59BC341CA50D8800C92852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F59BC321CA50D8800C92852 /* LaunchScreen.storyboard */; };
 		0F59BC3F1CA50D8800C92852 /* EasePersonCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F59BC3E1CA50D8800C92852 /* EasePersonCenterTests.m */; };
 		0F59BC4A1CA50D8800C92852 /* EasePersonCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F59BC491CA50D8800C92852 /* EasePersonCenterUITests.m */; };
+		0F59BC591CA50FE700C92852 /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F59BC581CA50FE700C92852 /* HeadView.m */; };
+		0F59BC5B1CA5109D00C92852 /* todaynews_header_bg_day@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F59BC5A1CA5109D00C92852 /* todaynews_header_bg_day@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		0F59BC451CA50D8800C92852 /* EasePersonCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasePersonCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F59BC491CA50D8800C92852 /* EasePersonCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasePersonCenterUITests.m; sourceTree = "<group>"; };
 		0F59BC4B1CA50D8800C92852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F59BC571CA50FE700C92852 /* HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		0F59BC581CA50FE700C92852 /* HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
+		0F59BC5A1CA5109D00C92852 /* todaynews_header_bg_day@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "todaynews_header_bg_day@2x.png"; path = "../../../../Desktop/todaynews_header_bg_day@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		0F59BC231CA50D8800C92852 /* EasePersonCenter */ = {
 			isa = PBXGroup;
 			children = (
+				0F59BC5A1CA5109D00C92852 /* todaynews_header_bg_day@2x.png */,
 				0F59BC271CA50D8800C92852 /* AppDelegate.h */,
 				0F59BC281CA50D8800C92852 /* AppDelegate.m */,
 				0F59BC2A1CA50D8800C92852 /* ViewController.h */,
@@ -110,6 +116,8 @@
 				0F59BC321CA50D8800C92852 /* LaunchScreen.storyboard */,
 				0F59BC351CA50D8800C92852 /* Info.plist */,
 				0F59BC241CA50D8800C92852 /* Supporting Files */,
+				0F59BC571CA50FE700C92852 /* HeadView.h */,
+				0F59BC581CA50FE700C92852 /* HeadView.m */,
 			);
 			path = EasePersonCenter;
 			sourceTree = "<group>";
@@ -245,6 +253,7 @@
 			files = (
 				0F59BC341CA50D8800C92852 /* LaunchScreen.storyboard in Resources */,
 				0F59BC311CA50D8800C92852 /* Assets.xcassets in Resources */,
+				0F59BC5B1CA5109D00C92852 /* todaynews_header_bg_day@2x.png in Resources */,
 				0F59BC2F1CA50D8800C92852 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				0F59BC2C1CA50D8800C92852 /* ViewController.m in Sources */,
 				0F59BC291CA50D8800C92852 /* AppDelegate.m in Sources */,
+				0F59BC591CA50FE700C92852 /* HeadView.m in Sources */,
 				0F59BC261CA50D8800C92852 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -403,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EasePersonCenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sss.EasePersonCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EasePersonCenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sss.EasePersonCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
